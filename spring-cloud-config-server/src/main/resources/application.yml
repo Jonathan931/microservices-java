@@ -7,7 +7,8 @@ spring:
         encrypt:
           enabled: false
         git:
-          uri: https://github.com/Jonathan931/microservices-java/tree/main/git-localconfig-server/
+          uri: https://github.com/Jonathan931/microservices-java/
+          search-paths: git-localconfig-server
 
 server:
   port: 8888
