@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        encrypt:
+          enabled: false
+        git:
+          uri:https://github.com/Jonathan931/microservices-java/tree/main/git-localconfig-server/
+
+server:
+  port: 8888
+
